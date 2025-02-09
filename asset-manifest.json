@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Flowers-Dashboard2/static/css/main.1d2ee7e4.css",
+    "main.js": "/Flowers-Dashboard2/static/js/main.b5a10cde.js",
+    "static/media/flowers-bouquet-3.png": "/Flowers-Dashboard2/static/media/flowers-bouquet-3.e52fb39982b6fd39249c.png",
+    "static/media/bouquet-tulips.png": "/Flowers-Dashboard2/static/media/bouquet-tulips.afb01a2978b974805084.png",
+    "static/media/red-flowers.png": "/Flowers-Dashboard2/static/media/red-flowers.ed4adc9d80c0c83bb727.png",
+    "static/media/bucket-with-bouquet-2.png": "/Flowers-Dashboard2/static/media/bucket-with-bouquet-2.f4cb0b764c58fd233c59.png",
+    "static/media/rose.png": "/Flowers-Dashboard2/static/media/rose.6221979a64b1c4799ca5.png",
+    "static/media/flowers-watering.png": "/Flowers-Dashboard2/static/media/flowers-watering.da2c04c62d07afa908dc.png",
+    "static/media/sunflower.png": "/Flowers-Dashboard2/static/media/sunflower.8df4dd07247336462c2f.png",
+    "static/media/bucket-with-bouquet.png": "/Flowers-Dashboard2/static/media/bucket-with-bouquet.d46fe543da89e4afb678.png",
+    "static/media/cactus-plant2.png": "/Flowers-Dashboard2/static/media/cactus-plant2.81f68b17199b4e872484.png",
+    "static/media/valentines.png": "/Flowers-Dashboard2/static/media/valentines.38cb7c55a3a7d7147294.png",
+    "static/media/tulip.png": "/Flowers-Dashboard2/static/media/tulip.269c90cad73d2f8c818c.png",
+    "static/media/snake-plant.png": "/Flowers-Dashboard2/static/media/snake-plant.4516263e3fe7165a531b.png",
+    "static/media/flower-wooden.png": "/Flowers-Dashboard2/static/media/flower-wooden.1636713ee59c5e405c76.png",
+    "static/media/plant-close-uppng.png": "/Flowers-Dashboard2/static/media/plant-close-uppng.dec6798fd8eda2ad1a3a.png",
+    "static/media/indoor-plants.png": "/Flowers-Dashboard2/static/media/indoor-plants.0d3c8f0b725a541a73f1.png",
+    "static/media/cactus-plant.png": "/Flowers-Dashboard2/static/media/cactus-plant.cff5142bd62aca1a9c7b.png",
+    "index.html": "/Flowers-Dashboard2/index.html",
+    "main.1d2ee7e4.css.map": "/Flowers-Dashboard2/static/css/main.1d2ee7e4.css.map",
+    "main.b5a10cde.js.map": "/Flowers-Dashboard2/static/js/main.b5a10cde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d2ee7e4.css",
+    "static/js/main.b5a10cde.js"
+  ]
+}
