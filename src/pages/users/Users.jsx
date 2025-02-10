@@ -12,16 +12,12 @@ import plus from '../../assets/icons/plus.png';
 
 
 const Users = () => {
-  let localData = JSON.parse(localStorage.getItem('users'))
+  let localData = JSON.parse(localStorage.getItem('users')) || [];
   const { navbarHeight = 0 } = useContext(NavbarHeightContext);
   const [rows, setRows] = useState(localData)
   const [selectedRow, setSelectedRow] = useState(null)
 
   useEffect(() => {
-    let localData = JSON.parse(localStorage.getItem('users'))
-    if (!localData) {
-      localData = []
-    }
     if (localData.length === 0) {
       axios.get('https://jsonplaceholder.typicode.com/users')
         .then((result) => {
@@ -29,11 +25,8 @@ const Users = () => {
           setRows(result.data)
         })
         .catch((error) => { console.error(error) })
-    } else {
-      setRows(localData)
     }
   }, []);
-
 
   const handleInputChange = (field, value) => {
     return setSelectedRow({ ...selectedRow, [field]: value })
