@@ -17,7 +17,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const Reports = () => {
-    const localData = JSON.parse(localStorage.getItem('reports'))
+    const localData = JSON.parse(localStorage.getItem('reports')) || [];
     const { navbarHeight = 0 } = useContext(NavbarHeightContext);
     const [rows, setRows] = useState(localData)
     const [selectedRow, setSelectedRow] = useState(null)
@@ -29,9 +29,7 @@ const Reports = () => {
         setRows([])
     }
     useEffect(() => {
-
         const fieldsToSearch = ["productName", "dateOfCreation", "price", "customerId", "notes"];
-
         const dataFilter = rows.filter((item) =>
             fieldsToSearch.some((field) =>
                 item[field]?.toLowerCase().includes(searchText.toLowerCase())
@@ -39,9 +37,18 @@ const Reports = () => {
         );
 
         setRows(dataFilter)
-
-
     }, [searchText]);
+
+    useEffect(() => {
+        const localData = JSON.parse(localStorage.getItem('reports')) || [];
+        if (localData.length > 0) {
+            setRows(localData);
+        } else {
+            const initialRows = [...reportsRows];
+            localStorage.setItem('reports', JSON.stringify(initialRows));
+            setRows(initialRows);
+        }
+    }, []);
 
     return (
         <div className='reports'>

@@ -96,7 +96,7 @@ const Modal = ({ modalId, rows, setRows, selectedRow, setSelectedRow, keyLocalSt
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" className="btn btn-primary" data-bs-dismiss="modal"
-                                onClick={() => handleSave()}>Send message</button>
+                                onClick={() => handleSave()}>Edit</button>
                         </div>
                     </div>
                 </div>

@@ -23,9 +23,9 @@ const DataGridTable = ({ rows, setRows, defaultRows, columns, selectedRow, setSe
     return setRows(reindexedRows)
   }
 
-
   useEffect(() => {
     const localData = JSON.parse(localStorage.getItem(keyLocalStorage));
+
     if (localData && localData.length > 0) {
       setRows(localData);
     } else {
@@ -34,7 +34,6 @@ const DataGridTable = ({ rows, setRows, defaultRows, columns, selectedRow, setSe
       setRows(initialRows);
     }
   }, []);
-
 
   const actionColumn = {
     field: 'action', headerName: 'Action', flex: 1, renderCell: (params) => (

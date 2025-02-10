@@ -96,7 +96,7 @@ const AddModal = ({ modalId, rows, setRows, keyLocalStorage }) => {
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" className="btn btn-primary" data-bs-dismiss="modal"
-                                onClick={() => handleSave()}>Send message</button>
+                                onClick={() => handleSave()}>Add</button>
                         </div>
                     </div>
                 </div>

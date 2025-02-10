@@ -21,10 +21,11 @@ function App() {
     document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
   }, [i18n.language]);
 
+  const isGitHubPages = window.location.hostname === 'react-projects1.github.io';
 
   return (
     <div className="App">
-      <BrowserRouter basename="/Flowers-Dashboard2">
+      <BrowserRouter basename={isGitHubPages ? "/Flowers-Dashboard2" : ""}>
         <Routes>
           <Route path="/">
 

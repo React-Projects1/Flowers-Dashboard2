@@ -73,7 +73,7 @@
     export const usersColumns = [
         { field: 'id', headerName: 'User ID', flex: 1 },
         { field: 'name', headerName: 'Name', flex: 1 },
-        { field: 'email', headerName: 'Email', type: 'email', flex: 1 },
+        { field: 'email', headerName: 'Email', flex: 1 },
     ];
 
     export const ordersColumns = [
@@ -106,7 +106,6 @@
     export const userField = [
         { id: 1, label: 'Name', name: 'name', type: 'text', },
         { id: 2, label: 'Email', name: 'email', type: 'email', },
-        { id: 3, label: 'Type', name: 'type', type: 'text', },
     ]
 
     export const ordersField = [
