@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Flowers-Dashboard2/static/css/main.1d2ee7e4.css",
-    "main.js": "/Flowers-Dashboard2/static/js/main.06a9abf3.js",
+    "main.js": "/Flowers-Dashboard2/static/js/main.f500acc5.js",
     "static/media/flowers-bouquet-3.png": "/Flowers-Dashboard2/static/media/flowers-bouquet-3.e52fb39982b6fd39249c.png",
     "static/media/bouquet-tulips.png": "/Flowers-Dashboard2/static/media/bouquet-tulips.afb01a2978b974805084.png",
     "static/media/red-flowers.png": "/Flowers-Dashboard2/static/media/red-flowers.ed4adc9d80c0c83bb727.png",
@@ -20,10 +20,10 @@
     "static/media/cactus-plant.png": "/Flowers-Dashboard2/static/media/cactus-plant.cff5142bd62aca1a9c7b.png",
     "index.html": "/Flowers-Dashboard2/index.html",
     "main.1d2ee7e4.css.map": "/Flowers-Dashboard2/static/css/main.1d2ee7e4.css.map",
-    "main.06a9abf3.js.map": "/Flowers-Dashboard2/static/js/main.06a9abf3.js.map"
+    "main.f500acc5.js.map": "/Flowers-Dashboard2/static/js/main.f500acc5.js.map"
   },
   "entrypoints": [
     "static/css/main.1d2ee7e4.css",
-    "static/js/main.06a9abf3.js"
+    "static/js/main.f500acc5.js"
   ]
 }
