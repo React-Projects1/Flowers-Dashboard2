@@ -88,10 +88,11 @@ const Navbar = () => {
     return (
 
         <nav className={` p-3 ${scrolled ? "navbar navScroll" : "navbar navTransparent"}`} ref={elementRef}>
-            <div className="container-fluid">
-                <a className="navbar-brand fs-4" href='#'>{getNavText()}</a>
-                <div className='col-7 col-sm-8 col-md-3  mt-1 left d-flex gap-4 justify-content-end align-items-center'>
-
+            <div className="row container-fluid">
+                <div className='col-2'>
+                    <a className="navbar-brand fs-4" href='#'>{getNavText()}</a>
+                </div>
+                <div className='col-7 col-md-4 col-lg-2 mt-1 left d-flex  justify-content-between align-items-center'>
                     <div className='cart'>
                         <NavLink to='/cart'>
                             <span>{numberElements}</span>

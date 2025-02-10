@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/Flowers-Dashboard2">
+      <BrowserRouter>
         <Routes>
           <Route path="/">
 
