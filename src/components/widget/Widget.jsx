@@ -3,7 +3,7 @@ import './widget.scss'
 import { Card, Col, Row } from 'react-bootstrap';
 import { cardData } from '../../dataItems'
 import arrow5 from '../../assets/icons/arrow5.png'
- 
+
 const Widget = () => {
     return (
         <div className='widget'>
@@ -19,18 +19,21 @@ const Widget = () => {
                                     <div className='d-flex justify-content-between'>
                                         <p className='mb-0'>{item.title}</p>
                                         <div className='d-flex align-items-center'>
-                                            <img src={item.icon} alt='Arrow Icon' width='16px' style={item.icon ?
-                                                { display: 'flex' } :
-                                                { display: 'none' }} />
+                                            <img src={item.icon} alt='Arrow Icon' width='16px'
+                                                style={item.icon ?
+                                                    { display: 'flex' } :
+                                                    { display: 'none' }} />
 
                                             <span style={item.percentage >= 15 ?
                                                 { color: 'green' } : { color: 'red' }}>
                                                 {item.percentage ? `${item.percentage}%`
-                                                    .replace('.', ',') : ''}
+                                                .replace('.', ',') : ''}
                                             </span>
                                         </div>
                                     </div>
-                                    <p className='mb-0 text'>{item.text ? item.text : ""}</p>
+                                    <p className='mb-0 text'
+                                        style={!item.text ? { color: 'transparent' } : { color: '#453A3C' }}>
+                                        {item.text ? item.text : "none"}</p>
                                 </div>
 
                                 <div className='center my-1'>
